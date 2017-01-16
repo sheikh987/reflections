@@ -5,4 +5,15 @@ Why might you want to always pull changes manually rather than having Git automa
   if changes are made manually
   -- you would know what new code has been added and not get confused.
   -- you might want to read the file before you pull it and add it to your master.
-  -- in case you dont want that change, you dont pull it.  
+  -- in case you dont want that change, you dont pull it.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+  forks: if you want to work independently on a project which is already on git hub you can use 
+         fork to make a copy of the repository on your profile.
+         further commits on your repository will not change the owners repository
+
+  clones: clones are just a copy of a repository(remote) on your computer(local)
+
+  branches:if you have to test how the code works for a specific change made and not really want
+           to loose the previous state, you can create a new branch and then test and experiment on this new branch.
+           The code on the master branch remains unaffected            
